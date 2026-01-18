@@ -1,5 +1,9 @@
 """FastAPI application entry point."""
 
+# Set matplotlib to non-interactive backend (fixes X server error in deployment)
+import matplotlib
+matplotlib.use('Agg')
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
