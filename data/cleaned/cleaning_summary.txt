@@ -1,0 +1,28 @@
+DATA CLEANING SUMMARY
+======================================================================
+
+Total rows: 167,341
+Date range: 2014-01-01 00:00:00 to 2025-10-31 00:00:00
+
+Delay statistics:
+  Mean: 2.39 minutes
+  Median: 0.00 minutes
+  Min: 0.00 minutes
+  Max: 179.00 minutes
+
+By mode:
+  subway: 167,341 rows
+
+Missing values:
+date         0
+route        0
+location     0
+direction    0
+time         0
+day          0
+incident     0
+min_delay    0
+min_gap      0
+vehicle      0
+mode         0
+dtype: int64

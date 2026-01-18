@@ -1,0 +1,24 @@
+OPTIMIZED MODEL TRAINING SUMMARY
+======================================================================
+
+Training Date: 2026-01-17 19:48:00
+Best Model: random_forest
+
+Dataset Size: 144,518 rows
+Features: 32 (optimized selection)
+Train: 92,491 rows
+Validation: 23,123 rows
+Test: 28,904 rows
+
+MODEL PERFORMANCE
+----------------------------------------------------------------------
+
+RANDOM_FOREST:
+  Validation:
+    MAE: 1.7328
+    RMSE: 3.3137
+    R²: 0.4000
+  Test:
+    MAE: 1.7241
+    RMSE: 3.2665
+    R²: 0.4059

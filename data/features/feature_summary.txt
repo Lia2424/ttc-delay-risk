@@ -1,0 +1,127 @@
+FEATURE ENGINEERING SUMMARY
+======================================================================
+
+Total rows: 144,518
+Total features: 38
+
+Feature columns:
+  - year
+  - month
+  - day_of_month
+  - day_of_week
+  - hour
+  - minute
+  - is_weekend
+  - is_morning_rush
+  - is_evening_rush
+  - is_rush_hour
+  - is_holiday_season
+  - route_avg_delay
+  - location_avg_delay
+  - route_hour_avg_delay
+  - route_dow_avg_delay
+  - route_delay_frequency
+  - location_delay_frequency
+  - incident_avg_delay
+  - route_type
+  - stop_lat
+  - stop_lon
+  - direction_encoded
+  - incident_encoded
+  - min_delay
+  - mode_subway
+  - mode_nan
+  - route_type_name_Subway
+  - route_type_name_nan
+  - season_Fall
+  - season_Spring
+  - season_Summer
+  - season_Winter
+  - season_nan
+  - time_of_day_Night
+  - time_of_day_Morning
+  - time_of_day_Afternoon
+  - time_of_day_Evening
+  - time_of_day_nan
+
+Data types:
+year                          int32
+month                         int32
+day_of_month                  int32
+day_of_week                   int32
+hour                          int32
+minute                        int32
+is_weekend                    int64
+is_morning_rush               int64
+is_evening_rush               int64
+is_rush_hour                  int64
+is_holiday_season             int64
+route_avg_delay             float64
+location_avg_delay          float64
+route_hour_avg_delay        float64
+route_dow_avg_delay         float64
+route_delay_frequency         int64
+location_delay_frequency      int64
+incident_avg_delay          float64
+route_type                    int64
+stop_lat                    float64
+stop_lon                    float64
+direction_encoded             int64
+incident_encoded              int64
+min_delay                     int64
+mode_subway                    bool
+mode_nan                       bool
+route_type_name_Subway         bool
+route_type_name_nan            bool
+season_Fall                    bool
+season_Spring                  bool
+season_Summer                  bool
+season_Winter                  bool
+season_nan                     bool
+time_of_day_Night              bool
+time_of_day_Morning            bool
+time_of_day_Afternoon          bool
+time_of_day_Evening            bool
+time_of_day_nan                bool
+dtype: object
+
+Missing values:
+year                             0
+month                            0
+day_of_month                     0
+day_of_week                      0
+hour                             0
+minute                           0
+is_weekend                       0
+is_morning_rush                  0
+is_evening_rush                  0
+is_rush_hour                     0
+is_holiday_season                0
+route_avg_delay                  0
+location_avg_delay               0
+route_hour_avg_delay             0
+route_dow_avg_delay              0
+route_delay_frequency            0
+location_delay_frequency         0
+incident_avg_delay               0
+route_type                       0
+stop_lat                    144518
+stop_lon                    144518
+direction_encoded                0
+incident_encoded                 0
+min_delay                        0
+mode_subway                      0
+mode_nan                         0
+route_type_name_Subway           0
+route_type_name_nan              0
+season_Fall                      0
+season_Spring                    0
+season_Summer                    0
+season_Winter                    0
+season_nan                       0
+time_of_day_Night                0
+time_of_day_Morning              0
+time_of_day_Afternoon            0
+time_of_day_Evening              0
+time_of_day_nan                  0
+dtype: int64
